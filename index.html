@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heph's Craft World - Artisan Headwear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Heph's Craft World</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="whatsapp-icon">
+                <a href="https://wa.me/2349035389469" target="_blank" title="Chat on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Crafted Perfection for Your Crown</h2>
+            <p>Handmade Headwear Connecting Artisans to Fashion Lovers</p>
+            <a href="#collection" class="btn">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="collection" id="collection">
+        <div class="container">
+            <h2>Our Artisan Collection</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1572307480813-ceb0e59d8325?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wool Fedora Hat">
+                    <h3>Premium Wool Fedora</h3>
+                    <p class="price">₦15,500</p>
+                    <p class="description">Handcrafted wool fedora with leather band</p>
+                    <button class="whatsapp-btn" onclick="sendWhatsAppMessage('Premium Wool Fedora', '₦15,500')">
+                        <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                    </button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Embroidered Cap">
+                    <h3>Designer Baseball Cap</h3>
+                    <p class="price">₦8,900</p>
+                    <p class="description">Custom embroidered cotton cap</p>
+                    <button class="whatsapp-btn" onclick="sendWhatsAppMessage('Designer Baseball Cap', '₦8,900')">
+                        <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                    </button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Summer Straw Hat">
+                    <h3>Summer Straw Hat</h3>
+                    <p class="price">₦12,000</p>
+                    <p class="description">Handwoven straw hat with satin ribbon</p>
+                    <button class="whatsapp-btn" onclick="sendWhatsAppMessage('Summer Straw Hat', '₦12,000')">
+                        <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                    </button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Knit Beanie">
+                    <h3>Cashmere Blend Beanie</h3>
+                    <p class="price">₦9,500</p>
+                    <p class="description">Soft knit beanie for winter warmth</p>
+                    <button class="whatsapp-btn" onclick="sendWhatsAppMessage('Cashmere Blend Beanie', '₦9,500')">
+                        <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                    </button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1554341119-ec28e8d8c8d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Elegant Fascinator">
+                    <h3>Wedding Fascinator</h3>
+                    <p class="price">₦18,000</p>
+                    <p class="description">Handmade fascinator with lace details</p>
+                    <button class="whatsapp-btn" onclick="sendWhatsAppMessage('Wedding Fascinator', '₦18,000')">
+                        <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                    </button>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Leather Cap">
+                    <h3>Vintage Leather Cap</h3>
+                    <p class="price">₦22,000</p>
+                    <p class="description">Aged leather cap with brass details</p>
+                    <button class="whatsapp-btn" onclick="sendWhatsAppMessage('Vintage Leather Cap', '₦22,000')">
+                        <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="container">
+            <h2>Our Artisan Story</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <h3>Handcrafted with Passion</h3>
+                    <p>At Heph's Craft World, each headwear piece is meticulously created by skilled artisans who blend traditional techniques with contemporary design. Our commitment to quality ensures every hat tells a story of craftsmanship and style.</p>
+                    <p>We believe in sustainable fashion and use ethically sourced materials to create headwear that not only looks beautiful but feels good to wear.</p>
+                    <a href="https://wa.me/2349035389469?text=Hello%20Heph's%20Craft%20World!%20I'd%20like%20to%20learn%20more%20about%20your%20craftsmanship" class="btn" target="_blank">
+                        Chat with Artisan
+                    </a>
+                </div>
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Artisan at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get Your Custom Headwear</h2>
+            <p>Connect directly with our artisan for custom orders and consultations</p>
+            <div class="contact-options">
+                <a href="https://wa.me/2349035389469?text=Hello%20Heph's%20Craft%20World!%20I'm%20interested%20in%20a%20custom%20headwear%20order" class="whatsapp-btn-large" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +234 903 538 9469</p>
+                    <p><i class="fas fa-clock"></i> Available: 9AM - 6PM (WAT)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Heph's Craft World</h3>
+                    <p>Artisan-Crafted Headwear Since 2023</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#contact">Custom Orders</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/2349035389469" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Heph's Craft World. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
